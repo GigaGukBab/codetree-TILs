@@ -8,3 +8,5 @@ B_math_grade, B_eng_grade = B_grade[0], B_grade[1]
 
 if A_math_grade > B_math_grade and A_eng_grade > B_eng_grade:
     print(1)
+else:
+    print(0)
