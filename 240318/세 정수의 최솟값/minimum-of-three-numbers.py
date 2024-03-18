@@ -2,6 +2,8 @@ num_arr = input()
 num_arr = list(map(int, num_arr.split()))
 a, b, c = num_arr[0], num_arr[1], num_arr[2]
 
+min_val = 0
+
 if a < b and a < c:
     min_val = a
 elif b < a and b < c:
