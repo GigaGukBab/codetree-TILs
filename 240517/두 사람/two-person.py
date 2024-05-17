@@ -13,5 +13,6 @@ second_person_sex = second_person_input_list[1]
 if (first_person_age >= 19 or second_person_age >= 19):
     if(first_person_sex == "M" or second_person_sex == "M"):
         print(1)
-else:
-    print(0)
+elif (first_person_age < 19 or second_person_age < 19):
+    if (first_person_sex == "W" or second_person_sex == "W"):
+        print(0)
