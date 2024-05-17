@@ -1,12 +1,13 @@
-a = int(input())
+sex = int(input())
+age = int(input())
 
-if a % 2 == 1:
-    if a >= 10:
-        print('A')
+if sex == 0:
+    if age >= 19:
+        print("MAN")
     else:
-        print('B')
+        print("BOY")
 else:
-    if a >= 15:
-        print('C')
+    if age >= 19:
+        print("WOMAN")
     else:
-        print('D')
+        print("GIRL")
