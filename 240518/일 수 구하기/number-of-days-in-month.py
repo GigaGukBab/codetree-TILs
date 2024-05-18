@@ -20,7 +20,7 @@ if n % 2 == 1:
 else:
     if n == 2:
         print(28)
-    elif n <= 8 or n >= 12:
+    elif n >= 8 or n <= 12:
         print(31)
     else:
         print(30)
