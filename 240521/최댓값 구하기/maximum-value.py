@@ -6,7 +6,7 @@ if a > b:
         print(a)
     else:
         print(c)
-else: # a < b
+else: # b > a
     if b > c:
         print(b)
     else:
